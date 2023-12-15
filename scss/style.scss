@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka One;
+    src: url(../fonts/Fredoka-Regular.ttf);
+}
+@font-face {
+    font-family: Hind Madurai;
+    src: url(../fonts/HindMadurai-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+header{
+    background: #F2CEDA;
+    padding: 10px 180px;
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-links{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            a{
+                color: #150101;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                transition: 0.4s;
+                &:hover{
+                    color: #D23166;
+                }
+            }
+        }
+        button{
+            color: #FAFAFA;
+            font-family: Hind Madurai;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #D23166;
+            padding: 14px 50px 13px;
+        }
+    }
+}
+main{
+    .hero-section{
+        padding: 27px 180px 0;
+        height: 763px;
+        background: #F2CEDA;
+        .hero-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5{
+                width: 670px;
+                color: #0F0101;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1.4px;
+            }
+            h2{
+                padding-top: 6px;
+                max-width: 523px;
+                color: #0F0101;
+                font-family: Fredoka One;
+                font-size: 57.33px;
+                font-style: normal;
+                padding-bottom: 35px;
+                font-weight: 400;
+                line-height: 120.5%;
+                span{
+                    color: #D23166;
+                }
+            }
+            p{
+                padding-bottom: 50px;
+                color: #0F0101;
+                font-family: Hind Madurai;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 27px;
+            }
+            .marojna{
+                position: relative;
+                .oqibketkan{
+                    right: -70px;
+                    top: 100px;
+                    position: absolute;
+                }
+            }
+            button{
+                color: #FAFAFA;
+                font-family: Hind Madurai;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                flex-shrink: 0;
+                border-radius: 5px;
+                background: #D23166;
+                padding: 14px 50px 13px;
+            }
+        }
+    }
+}
